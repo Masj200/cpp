@@ -6,10 +6,10 @@ void main()
 	int w = 16, h = 8;
 	MonsterWorld game(w, h);
 
-	game.add(new Monster("¸ó½ºÅÍ", "¡Ø", rand() % w, rand() % h));
-	game.add(new Monster("µµ±úºñ", "¡İ", rand() % w, rand() % h));
-	game.add(new Monster("º°±×´ë", "¡Ú", rand() % w, rand() % h));
-	game.add(new Monster("°í½ºÆ®", "¢¾", rand() % w, rand() % h));
+	game.add(new Monster("ëª¬ìŠ¤í„°", "â€»", rand() % w, rand() % h));
+	game.add(new Monster("ë„ê¹¨ë¹„", "â—", rand() % w, rand() % h));
+	game.add(new Monster("ë³„ê·¸ëŒ€", "â˜…", rand() % w, rand() % h));
+	game.add(new Monster("ê³ ìŠ¤íŠ¸", "â™¥", rand() % w, rand() % h));
 	game.play(500, 10);
-	printf("------°ÔÀÓ Á¾·á-------------------\n");
+	printf("------ê²Œì„ ì¢…ë£Œ-------------------\n");
 }
